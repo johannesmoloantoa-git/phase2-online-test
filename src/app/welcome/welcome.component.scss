@@ -2,6 +2,7 @@
 .welcome-container {
     max-width: 1000px;
     margin: 200px auto;
+    background-color: bisque;
 }
 
 .center {
@@ -22,5 +23,52 @@
 
 .quiz-card {
   margin: 20px;
+  background-color: aqua;
 }
+
+//container stylings
+
+mat-toolbar{
+  background-color:bisque;
+}
+
+mat-sidenav{
+  margin:16px;
+  width: 300px;
+  border-right: none;
+  background: bisque;
+  color: black;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: left;
+}
+
+.content-nav{
+  height: calc(100vh - 90px);
+  margin: 16px;
+  margin-left: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+mat-sidenav-container{
+  height: calc(100vh - 65px);
+}
+
+a:hover{
+  background-color: rgb(243, 230, 214);
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+#menu-bar{
+  padding-left: 10px;
+}
+
+
 

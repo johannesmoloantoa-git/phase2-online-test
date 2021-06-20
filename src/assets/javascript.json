@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Which HTML tag do we use to put the JavaScript?",
+    "choices": [
+      {
+        "value": "<script>",
+        "correct": true
+      },
+      {
+        "value": "<javascript>",
+        "correct": false
+      },
+      {
+        "value":"<js>",
+        "correct": false
+      },
+      {
+        "value": "None of the above",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which built-in method calls a function for each element in the array?",
+    "choices": [
+      {
+        "value": "while()",
+        "correct": false
+      },
+      {
+        "value": "loop",
+        "correct": false
+      },
+      {
+        "value": "takeUntil",
+        "correct": false
+      },
+      {
+        "value": "forEach",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "What is the difference between let and var?",
+    "choices": [
+      {
+        "value": "let has local scope",
+        "correct": true
+      },
+      {
+        "value": "Both are same",
+        "correct": false
+      },
+      {
+        "value": "var is new data type",
+        "correct": false
+      },
+      {
+        "value": "let consumes more cpu and ram",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is TypeScript?",
+    "choices": [
+      {
+        "value":"script that runs on browser" ,
+        "correct": false
+      },
+      {
+        "value":"A Language based on Javascript",
+        "correct": true
+      },
+      {
+        "value": "A DataType Collection of Javascript",
+        "correct": false
+      },
+      {
+        "value": "None of the above",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following is right syntex for arrow function?",
+    "choices": [
+      {
+        "value": "a -> { return b; }",
+        "correct": false
+      },
+      {
+        "value": "x <= x + y;",
+        "correct": false
+      },
+      {
+        "value": "x => x + 5;",
+        "correct": true
+      },
+      {
+        "value": "x <- x + 5;",
+        "correct": false
+      }
+    ]
+  }
+]

@@ -1,26 +1,26 @@
 [
     {
-      "label": "Maths",
-      "name": "maths",
-      "description": "Questions about maths",
-      "fileName": "maths.json"
+      "label": "cshap",
+      "name": "cshap",
+      "description": "Questions about cshap",
+      "fileName": "cshap.json"
     },
     {
-      "label": "Egypt",
-      "name": "egypt",
-      "description": "Questions about the ancient Egyptians",
-      "fileName": "egypt.json"
+      "label": "Javascript",
+      "name": "javascript",
+      "description": "Questions about the ancient Javascript",
+      "fileName": "javascript.json"
     },
     {
-    "label": "Islands",
-    "name": "islands",
-    "description": "Questions about Islands",
-    "fileName": "islands.json"
+    "label": "ASP",
+    "name": "asp",
+    "description": "Questions about ASP",
+    "fileName": "asp.json"
     },
     {
-    "label": "Spices",
-    "name": "spices",
-    "description": "Questions about spices",
-    "fileName": "spices.json"
+    "label": "Designpatterns",
+    "name": "designpatterns",
+    "description": "Questions about design patterns",
+    "fileName": "designpatterns.json"
     }
   ]

@@ -1,44 +1,110 @@
-<mat-card class="welcome-container">
-  <mat-card-title align="center">
-    <h1 class="md-display-3">What do you know about...</h1>
-  </mat-card-title>
-  <mat-card-subtitle align="center">
-    <h1 class="md-display-2">Choose your favourite quiz!</h1>
-  </mat-card-subtitle>
-  <div class="flex-container" fxLayout="row" fxLayout.xs="column">
-    <mat-card class="quiz-card">
-      <a routerLink="/maths" class="img-link">
-        <img mat-card-image src="assets/images/maths.png" alt="picture of math elements">
-      </a>
-      <div class="center">
-        <a routerLink="/maths" color="primary" class="btn quiz-link-btn">Maths</a>
-      </div>
-    </mat-card>
-    <mat-card class="quiz-card">
-      <a routerLink="/egypt" class="img-link">
-        <img mat-card-image src="assets/images/egyptians.png" alt="picture of egyptians">
-      </a>
-      <div class="center">
-        <a routerLink="/egypt" color="primary" class="btn quiz-link-btn">Egyptians</a>
-      </div>
-    </mat-card>
-    <mat-card class="quiz-card">
-      <a routerLink="/islands" class="img-link">
-        <img mat-card-image src="assets/images/island.png" alt="picture of islands">
-      </a>
-      <div class="center">
-        <a routerLink="/islands" color="primary" class="btn quiz-link-btn">Islands</a>
-      </div>
-    </mat-card>
-    <mat-card class="quiz-card">
-      <a routerLink="/spices" class="img-link">
-        <img mat-card-image src="assets/images/spices.png" alt="picture of spices">
-      </a>
-      <div class="center">
-        <a routerLink="/spices" color="primary" class="btn quiz-link-btn">Spices</a>
-      </div>
-    </mat-card>
-
+<!--Top header-->
+<mat-toolbar>
+  Johannes Moloantoa
+  <div class="menu-bar">
+    |  <a routerLink="#">Home</a>   |  <a routerLink="#">About</a>   |  <a routerLink="#">Contact</a> |
   </div>
+</mat-toolbar>
 
-</mat-card>
+<!--Side bar-->
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+    <button mat-button class="menu-button">
+      <mat-icon><a routerLink="/cshap">C-SHARP</a></mat-icon>
+    </button>
+    <mat-divider></mat-divider>
+      <button mat-button class="menu-button">
+        <mat-icon><a routerLink="/javascript">JAVASCRIPT</a></mat-icon>
+      </button>
+      <mat-divider></mat-divider>
+      <button mat-button class="menu-button">
+        <mat-icon><a routerLink="/asp">ASP.Net</a></mat-icon>
+      </button>
+      <mat-divider></mat-divider>
+      <button mat-button class="menu-button">
+        <mat-icon><a routerLink="/designpatterns">DESIGN-PATTERNS</a></mat-icon>
+      </button>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <br>
+      <mat-divider></mat-divider>
+      <button mat-button class="menu-button">
+        <mat-icon>INFO</mat-icon>
+      </button>
+      <mat-divider></mat-divider>
+      <button mat-button class="menu-button">
+        <mat-icon>HELP</mat-icon>
+      </button>
+    
+    
+  </mat-sidenav>
+  <mat-sidenav-content>
+      <div class="content-nav mat-elevation z4">
+        <div><!--Container starts here-->
+          <mat-card class="welcome-container">
+            <mat-card-title align="center">
+              <h1 class="md-display-3" style="text-decoration: underline;">TECH-WORLD RECRUITMENT TEAM</h1>
+            </mat-card-title>
+            <mat-card-subtitle align="center">
+              <h1 class="md-display-2">Choose language you applied for and complete your assessment</h1>
+            </mat-card-subtitle>
+            <div class="flex-container" fxLayout="row" fxLayout.xs="column">
+              <mat-card class="quiz-card">
+                <a routerLink="/cshap" class="img-link">
+                  <img mat-card-image src="assets/images/csharp.png" alt="picture of c-shap">
+                </a>
+                <div class="center">
+                  <a routerLink="/cshap" color="primary" class="btn quiz-link-btn">C#</a>
+                </div>
+              </mat-card>
+              <mat-card class="quiz-card">
+                <a routerLink="/javascript" class="img-link">
+                  <img mat-card-image src="assets/images/javascript.png" alt="picture of javascript">
+                </a>
+                <div class="center">
+                  <a routerLink="/javascript" color="primary" class="btn quiz-link-btn">Javascript</a>
+                </div>
+              </mat-card>
+              <mat-card class="quiz-card">
+                <a routerLink="/asp" class="img-link">
+                  <img mat-card-image src="assets/images/ASP.png" alt="picture of asp.net">
+                </a>
+                <div class="center">
+                  <a routerLink="/asp" color="primary" class="btn quiz-link-btn">ASP.Net</a>
+                </div>
+              </mat-card>
+              <mat-card class="quiz-card">
+                <a routerLink="/designpatterns" class="img-link">
+                  <img mat-card-image src="assets/images/dezi.png" alt="picture of design patterns">
+                </a>
+                <div class="center">
+                  <a routerLink="/designpatterns" color="primary" class="btn quiz-link-btn">Design Patterns</a>
+                </div>
+              </mat-card>
+          
+            </div>
+          
+          </mat-card>
+          </div><!--Container ends here-->
+
+      </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+

@@ -1,0 +1,107 @@
+[
+  {
+    "label": "ASP.NET webform separates the HTML output from program logic using a feature named as",
+    "choices": [
+      {
+        "value": "Exception",
+        "correct": false
+      },
+      {
+        "value": "Code-behind",
+        "correct": true
+      },
+      {
+        "value": "Code-front",
+        "correct": false
+      },
+      {
+        "value":"None of the above",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "The feature in ASP.NET 2.0 that is used to fire a normal postback to a different page in the application is called",
+    "choices": [
+      {
+        "value": "Theme",
+        "correct": false
+      },
+      {
+        "value": "Code-front",
+        "correct": false
+      },
+      {
+        "value":"Cross Page Posting",
+        "correct": true
+      },
+      {
+        "value": "None of the above",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What class does the ASP.NET Web Form class inherit from by default?",
+    "choices": [
+      {
+        "value": "System.Web.UI.Page",
+        "correct": true
+      },
+      {
+        "value": "System.Web.UI.Form",
+        "correct": false
+      },
+      {
+        "value": "System.Web.GUI.Page",
+        "correct": false
+      },
+      {
+        "value": "System.Web.Form",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What class does the ASP.NET Web Form class inherit from by default?",
+    "choices": [
+      {
+        "value":"System.Web.GUI.Page" ,
+        "correct": false
+      },
+      {
+        "value": "System.Web.UI.Form",
+        "correct": false
+      },
+      {
+        "value": "System.Web.Form",
+        "correct": false
+      },
+      {
+        "value": "System.Web.UI.Page",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "What does MVC stand for?",
+    "choices": [
+      {
+        "value": "Model View Controller",
+        "correct": true
+      },
+      {
+        "value": "Maximum Virtual Control",
+        "correct": false
+      },
+      {
+        "value": "Microsoft Visual Core",
+        "correct": false
+      },
+      {
+        "value": "None of the above",
+        "correct": false
+      }
+    ]
+  }
+]

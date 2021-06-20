@@ -13,6 +13,13 @@ import { QuestionFormComponent } from './question-form/question-form.component';
 import { ResultsComponent } from './results/results.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { QuestionsComponent } from './questions/questions.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//mat tool bar imports
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDividerModule } from '@angular/material/divider';
+
 
 
 const appRoutes: Routes = [
@@ -38,7 +45,12 @@ const appRoutes: Routes = [
     MatGridListModule,
     MatButtonModule,
     MatCardModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    BrowserAnimationsModule,
+    MatToolbarModule, //Mat properties imported
+    MatSidenavModule,
+    MatIconModule,
+    MatDividerModule
 
 
 

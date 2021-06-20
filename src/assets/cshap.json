@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Which of the following assemblies can be stored in Global Assembly Cache?",
+    "choices": [
+      {
+        "value": "Shared Assemblies",
+        "correct": true
+      },
+      {
+        "value": "Private Assemblies",
+        "correct": false
+      },
+      {
+        "value": "Friend Assemblies",
+        "correct": false
+      },
+      {
+        "value": "Public Assemblies",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following .NET components can be used to remove unused references from the managed heap?",
+    "choices": [
+      {
+        "value": "Language Infrastructure",
+        "correct": false
+      },
+      {
+        "value": "Garbage Collector",
+        "correct": true
+      },
+      {
+        "value": "CLR",
+        "correct": false
+      },
+      {
+        "value": "Class Loader",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What does the term <strong>immutable</strong> means in term of string objects?",
+    "choices": [
+      {
+        "value": "We can modify characters included in the string",
+        "correct": false
+      },
+      {
+        "value": "We cannot perform various operation of comparison, inserting, appending etc",
+        "correct": false
+      },
+      {
+        "value":"None of the above",
+        "correct": false
+      },
+      {
+        "value": "We cannot modify characters contained in the string",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Which of the following is NOT an Arithmetic operator in C#.NET?",
+    "choices": [
+      {
+        "value": "+ (Plus)",
+        "correct": false
+      },
+      {
+        "value":"/ (Divide)",
+        "correct": false
+      },
+      {
+        "value": "** (Double Star)",
+        "correct": true
+      },
+      {
+        "value": "% (Modulo)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following statements is correct about an interface used in C#.NET?",
+    "choices": [
+      {
+        "value": "A class cannot implement an interface partially.",
+        "correct": false
+      },
+      {
+        "value": "If a class implements an interface partially, then it should be an abstract class.",
+        "correct": true
+      },
+      {
+        "value": "An interface can contain static methods.",
+        "correct": false
+      },
+      {
+        "value": "An interface can contain static data.",
+        "correct": false
+      }
+    ]
+  }
+]

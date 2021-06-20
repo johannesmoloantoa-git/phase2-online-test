@@ -15,6 +15,7 @@ export class QuestionsComponent implements OnInit {
   answers: Answers;
   questions: Question[];
   currentQuestionIndex: number;
+  
 
   showResults = false;
   // inject both the active route and the questions service
@@ -35,9 +36,11 @@ export class QuestionsComponent implements OnInit {
   }
 
   nextOrViewResults() {
+    
     if (this.currentQuestionIndex === this.questions.length - 1) {
       this.showResults = true;
       return;
+      
     }
     this.currentQuestionIndex++;
   }

@@ -1,0 +1,107 @@
+[
+  {
+    "label": "In SOLID principle, O stands for:",
+    "choices": [
+      {
+        "value": "Open-Closed Principle",
+        "correct": true
+      },
+      {
+        "value": "Objects and Variables",
+        "correct": false
+      },
+      {
+        "value": "Object Oriented Programming",
+        "correct": false
+      },
+      {
+        "value": "OutOfMemory Exception",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which pattern defines an interface for creating an object, but let the subclasses decide which class to instantiate. It let the instantiation differ to subclasses.",
+    "choices": [
+      {
+        "value": "Prototype",
+        "correct": false
+      },
+      {
+        "value": "Abstract Factory",
+        "correct": false
+      },
+      {
+        "value": "Builder",
+        "correct": false
+      },
+      {
+        "value": "Dragon’s Breath",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Which pattern attach the additional responsibilities to an object dynamically.It provides a flexible alternative to subclassing for extending functionality.",
+    "choices": [
+      {
+        "value": "Decorator",
+        "correct": true
+      },
+      {
+        "value": "Chain of responsibility",
+        "correct": false
+      },
+      {
+        "value": "Adapter",
+        "correct": false
+      },
+      {
+        "value": "Composite",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Singleton pattern is a (according to Gang of Four):",
+    "choices": [
+      {
+        "value": "Creational Pattern",
+        "correct": false
+      },
+      {
+        "value": "Behavioural Pattern",
+        "correct": true
+      },
+      {
+        "value": "Structural Pattern",
+        "correct": false
+      },
+      {
+        "value": "None of the above",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "MVC, MVP and MVVP are related to which layer of software architecture?",
+    "choices": [
+      {
+        "value": "User Interface",
+        "correct": true
+      },
+      {
+        "value": "Business/Service Layer",
+        "correct": false
+      },
+      {
+        "value":"Third Party Library",
+        "correct": false
+      },
+      {
+        "value": "Data Access Layer",
+        "correct": false
+      }
+    ]
+  }
+]
