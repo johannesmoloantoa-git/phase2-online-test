@@ -9,21 +9,15 @@
 <!--Side bar-->
 <mat-sidenav-container>
   <mat-sidenav mode="side" opened>
-    <button mat-button class="menu-button">
-      <mat-icon><a routerLink="/cshap">C-SHARP</a></mat-icon>
-    </button>
-    <mat-divider></mat-divider>
-      <button mat-button class="menu-button">
-        <mat-icon><a routerLink="/javascript">JAVASCRIPT</a></mat-icon>
-      </button>
-      <mat-divider></mat-divider>
-      <button mat-button class="menu-button">
-        <mat-icon><a routerLink="/asp">ASP.Net</a></mat-icon>
-      </button>
-      <mat-divider></mat-divider>
-      <button mat-button class="menu-button">
-        <mat-icon><a routerLink="/designpatterns">DESIGN-PATTERNS</a></mat-icon>
-      </button>
+    <table >
+      <tr >LANGUAGES </tr>
+        <tr><mat-icon><a routerLink="/cshap">C-SHARP</a></mat-icon></tr>
+        <tr><mat-icon><a routerLink="/javascript">JAVASCRIPT</a></mat-icon></tr>
+        <tr><mat-icon><a routerLink="/asp">ASP.Net</a></mat-icon></tr>
+        <tr><mat-icon><a routerLink="/designpatterns">DESIGN-PATTERNS</a></mat-icon></tr>
+      
+    </table>
+    
       <br>
       <br>
       <br>
@@ -69,7 +63,7 @@
                   <img mat-card-image src="assets/images/csharp.png" alt="picture of c-shap">
                 </a>
                 <div class="center">
-                  <a routerLink="/cshap" color="primary" class="btn quiz-link-btn">C#</a>
+                  <button class="btn btn-info"><a routerLink="/cshap" color="primary" class="btn quiz-link-btn">C-Shap</a></button>
                 </div>
               </mat-card>
               <mat-card class="quiz-card">
@@ -77,7 +71,7 @@
                   <img mat-card-image src="assets/images/javascript.png" alt="picture of javascript">
                 </a>
                 <div class="center">
-                  <a routerLink="/javascript" color="primary" class="btn quiz-link-btn">Javascript</a>
+                  <button class="btn btn-info"><a routerLink="/javascript" color="primary" class="btn quiz-link-btn">Javascript</a></button>
                 </div>
               </mat-card>
               <mat-card class="quiz-card">
@@ -85,7 +79,7 @@
                   <img mat-card-image src="assets/images/ASP.png" alt="picture of asp.net">
                 </a>
                 <div class="center">
-                  <a routerLink="/asp" color="primary" class="btn quiz-link-btn">ASP.Net</a>
+                  <button class="btn btn-info"><a routerLink="/asp" color="primary" class="btn quiz-link-btn">ASP.Net</a></button>
                 </div>
               </mat-card>
               <mat-card class="quiz-card">
@@ -93,7 +87,7 @@
                   <img mat-card-image src="assets/images/dezi.png" alt="picture of design patterns">
                 </a>
                 <div class="center">
-                  <a routerLink="/designpatterns" color="primary" class="btn quiz-link-btn">Design Patterns</a>
+                  <button class="btn btn-info"><a routerLink="/designpatterns" color="primary" class="btn quiz-link-btn">Design</a></button>
                 </div>
               </mat-card>
           
