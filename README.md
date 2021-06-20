@@ -1,5 +1,8 @@
 # QuizApp
 
+# Dependencies
+Run npm install first to install all dipendencies.
+
 A basic app to practise Angular framework and TypeScript. The application presents users with multiple choice questions on various topics. Once users have answered all the questions, their results will be displayed.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
